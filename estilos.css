@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500&family=Poppins:wght@100;300;400;500;700&family=Roboto:wght@300;400;500;700&display=swap')
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/* Encabezado */
+.bi-three-dots-vertical{
+    display: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3vw;
+    height: 100%;
+    position: relative;
+}
+header .btn-Navbar{
+    display: flex;
+    position: absolute;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1vw;
+    right: 1vw;
+    top: 1vh;
+    padding:0 3vw;
+}
+.btn-Navbar-login{
+    height: 6vh;
+    width: 5vw;
+    border-radius: 10px;
+    background-color: #FFF;
+    border: 1px solid #BDBDBD;
+    box-shadow: 4px -4px 24px 0px rgba(94, 71, 71, 0.25);
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400; 
+}
+.btn-Navbar-register{
+    height: 6vh;
+    width: 6vw;
+    border-radius: 10px;
+    border: none;
+    color: #FFF;
+    background: #FFC727;
+    box-shadow: 4px -4px 24px 0px rgba(94, 71, 71, 0.25); 
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Articulo */
+
+h1{
+    color: #524242;
+    font-family: Poppins;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 500;
+    padding: 0 3vw;
+
+}
+.documents{
+    color: #FFC727;
+font-family: Poppins;
+font-size: 52px;
+font-weight: 500;
+}
+
+.parrafo-aside{
+    color: #524242;
+font-family: Poppins;
+font-size: 20px;
+font-weight: 400;
+padding: 0 3vw;
+}
+
+/* imagen diseñadora */
+
+aside .imagen-diseñadora{
+    display: flex;
+    position: relative;
+}
+.img-diseñadora{
+    display: flex;
+    position: absolute;
+    right: 2vw;
+    top: 15vh;
+}
+
+
+/* main */
+
+main{
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    padding: 6vh 3vw;
+}
+.Section-conteiner{
+    display: flex;
+    width: 95%;
+    border-radius: 100px 100px 0px 0px;
+    background-color: #DFEAFF; 
+    justify-content: space-around;
+    align-items: center;
+}
+.img-secciones{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Seccion1{
+    padding: 1vh 1vw;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+}
+h2{
+    color: #524242;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+}
+.Seccion2{
+    padding: 1vh 1vw;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+}
+h3{
+    color: #524242;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+}
+.Seccion3{
+    padding: 1vh 1vw;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); 
+}
+h4{
+    color: #524242;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.document-section{
+    color: #FFC727;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 500;
+}
+.parrafo-section{
+    color: #000;
+text-align: center;
+font-family: Poppins;
+font-size: 16px;
+font-weight: 400;
+}
+
+/* footer */
+
+footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2vh 1vw;
+    position: relative;
+}
+
+.footer-parrafo{
+    color: #867B7B;
+    font-family: Poppins;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+}
+.footer-follow{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #777;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.footer-redes{
+    display: flex;
+    position: absolute;
+    top: 25vh;
+    gap: 30px;
+}
+
+/* links */
+.bi-youtube{
+    color: red;
+}
+.bi-facebook{
+    color:#0076E2;
+}
+
+.bi-twitter{
+    color:#00C5C5;
+}
+
+/* mediaqueries */
+
+@media  and (max-width:600px){
+        .btn-Navbar{
+            display:none;
+        }
+        ..bi-three-dots-vertical{
+            display: flex;
+        }  
+        }
+@media  and (max-width:600px){
+            main{
+                display:flex;
+                flex-direction:column;
+            }
+            }
+            
