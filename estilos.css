@@ -157,12 +157,11 @@ h4{
 }
 .parrafo-section{
     color: #000;
-text-align: center;
-font-family: Poppins;
-font-size: 16px;
-font-weight: 400;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
 }
-
 /* footer */
 
 footer{
