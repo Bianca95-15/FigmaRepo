@@ -212,7 +212,7 @@ footer{
 /* mediaqueries  tablet - medidas: 768x1024-768=48rem-1024=64rem */
 @media screen and (max-width:48rem){
     .img-diseñadora{
-        width:30,44rem
+        width:30,44rem;
     }
     h1{
         width: 17,24rem;
