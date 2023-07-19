@@ -210,8 +210,8 @@ footer{
 }
 
 /* mediaqueries  tablet - medidas: 768x1024-768=48rem-1024=64rem */
-@media (max-width:768px){
-    .imagen-diseñadora{
+@media screen and (max-width:768px) {
+    .imagen-diseñadora {
         width: 4rem;
     }
     .BrandImg{
@@ -227,10 +227,11 @@ footer{
     width: 6.5rem;    
     }
 }
-@media (max-height:1024px){
+
+@media screen and (max-height:1024px){
     .img-diseñadora{
         height: 15rem;
-        top:15rem;
+        top:  15rem;
     }
     h1{
         height: 200px;
@@ -245,10 +246,9 @@ footer{
         height: 3rem;    
         }
 }
-
 /* main */
 /* 768px=40,42rem */
-@media (max-width:768px) {
+@media screen and (max-width:768px) {
     .Seccion1{
         width: 10rem;    
     }
@@ -259,8 +259,6 @@ footer{
         width: 10rem;
     }
 }
-
-
 /* media celular: 320x658 */
 @media screen and (max-width:320px) {
 /* display-none */   
@@ -309,7 +307,7 @@ main{
     height: 200;
     display: grid;
     grid-template-columns: auto;
-    gap:1px;
+    gap: 1px;
     border-radius: 10px;
 }
 /* seccion1 */
@@ -355,7 +353,6 @@ h3{
 h4{
     font-size: 8px;
 }
-
 /* fuentes e imagenes de secciones  */
 
     .document-section{
@@ -369,14 +366,12 @@ h4{
         justify-content: center;
         align-items: center;
         width: 60px;
-        
     }
 }
 
-
 /* footer */
 
-@media(max-width:320px) {
+@media screen and (max-width:320px) {
     footer{
     display:flex;
     flex-direction:column;
@@ -403,6 +398,5 @@ h4{
         width: 100px;
         height: 90px;
         top:200px;
-
     }
 }
