@@ -210,20 +210,22 @@ footer{
     color:#00C5C5;
 }
 
-/* mediaqueries */
+/* mediaqueries  tablet - medidas: 768x1024-768=48rem-1024=64rem */
 
-@media  and (max-width:600px){
-        .btn-Navbar{
-            display:none;
-        }
-        ..bi-three-dots-vertical{
-            display: flex;
-        }  
-        }
-@media  and (max-width:600px){
-            main{
-                display:flex;
-                flex-direction:column;
-            }
-            }
-            
+@media  and (max-width) {
+    .img-diseñadora{
+        width:30,44rem
+    }
+    h1{
+        width: 17,24rem;
+    }
+    .parrafo-aside{
+        width: 15rem;
+    }
+    .BrandImg{
+        width: 10,4rem;
+    }
+    .btn-Navbar{
+        width: 24,13rem;
+    } 
+}
